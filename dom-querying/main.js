@@ -12,8 +12,8 @@ const hintElement = document.querySelector('.hint');
 console.log('hintElement:', hintElement);
 console.dir('hintElement');
 
-const pElement = document.querySelector('p');
-console.log('pElements:', pElement);
+const paragraphs = document.querySelector('p');
+console.log('paragraphs:', paragraphs);
 
 const exampleLinks = document.querySelectorAll('.example-links');
 console.log('exampleLinks:', exampleLinks);
