@@ -65,3 +65,42 @@ const pokedex = [
     imageUrl: 'images/blastoise.png',
   },
 ];
+
+function renderPokemon(pokemon) {
+  const $columnThirdDiv = document.createElement('div');
+  $columnThirdDiv.className = 'column-third';
+
+  const $pokemonCardDiv = document.createElement('div');
+  $pokemonCardDiv.className = 'pokemon-card';
+
+  const $imageElement = document.createElement('img');
+  $imageElement.setAttribute('src', pokemon.imageUrl);
+
+  const $pokemonCardTextDiv = document.createElement('div');
+  $pokemonCardTextDiv.className = 'pokemon-card-text';
+
+  const $nameHeading = document.createElement('h2');
+  $nameHeading.textContent = pokemon.name;
+
+  const $numberHeading = document.createElement('h2');
+  $numberHeading.textContent = '#' + pokemon.number;
+
+  const $descriptionParagraph = document.createElement('p');
+  $descriptionParagraph.textContent = pokemon.description;
+
+  $pokemonCardTextDiv.appendChild($nameHeading);
+  $pokemonCardTextDiv.appendChild($numberHeading);
+  $pokemonCardTextDiv.appendChild($descriptionParagraph);
+  $pokemonCardDiv.appendChild($imageElement);
+  $pokemonCardDiv.appendChild($pokemonCardTextDiv);
+  $columnThirdDiv.appendChild($pokemonCardDiv);
+
+  return $columnThirdDiv;
+}
+
+const rowElement = document.querySelector('.row');
+
+pokedex.forEach(function (pokemon) {
+  const $pokemonElement = renderPokemon(pokemon);
+  rowElement.appendChild($pokemonElement);
+});
