@@ -1,45 +1,81 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: white;
+h2,
+label,
+button {
+  font-family: 'Brandon Grotesque', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 h2 {
-  text-align: center;
-  color: rgb(236, 92, 87);
+  font-size: 1.6em;
+  letter-spacing: 0.05rem;
 }
 
-input {
-  margin-top: 5px;
-  margin-bottom: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-bottom: 5px;
-  padding-right: 225px;
-  text-align: left;
-  border-radius: 5px;
-  border-color: lightgray;
-}
-
-select {
-  margin-top: 5px;
-  margin-bottom: 10px;
-  padding-top: 80px;
-  padding-bottom: 8px;
-  padding-bottom: 5px;
-  padding-right: 25px;
-  text-align: left;
-  border-radius: 5px;
-  border-color: lightgray;
-}
-
-button {
-  margin-left: 290px;
-  padding: 8px 20px;
-  border-radius: 15px;
-  color: white;
-  background-color: rgb(236, 92, 87);
+fieldset {
+  margin: 0 0 1em;
+  padding: 0;
   border: none;
+}
+
+.container {
+  width: 584px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.heading {
+  text-align: center;
+  color: #ef5e59;
+}
+
+.form-section:not(:last-child) {
+  margin-bottom: 1.25em;
+}
+
+.form-section > label {
+  display: block;
+  margin-left: 1em;
+  margin-bottom: 0.25em;
+}
+
+.form-btn {
+  text-align: right;
+}
+
+.form-btn button {
+  height: 3em;
+  padding: 0 1.75em;
+  border: none;
+  border-radius: 500px;
+  background-color: #ef5d58;
+  color: white;
+  font-size: 1.25em;
+}
+
+.form-data {
+  width: 100%;
+  height: 3.5em;
+  padding: 1em;
+  border: 1px solid darkgray;
+  border-radius: 8px;
+  font-size: 1.25em;
+}
+
+.form-data::placeholder {
+  color: gray;
+}
+
+.form-data:focus {
+  outline: none;
+  border-color: #3898ec;
+}
+
+select.form-data {
+  font-family: 'Brandon Grotesque', sans-serif;
+  background-color: #efefef;
+}
+
+input.form-data {
+  font-family: AtlasGrotesk, sans-serif;
+  font-weight: 300;
 }
