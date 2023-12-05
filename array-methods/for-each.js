@@ -5,7 +5,7 @@ values.forEach((number) => {
   console.log(number);
 });
 
-console.log('\nNumbers in reverse order:');
+console.log('Numbers in reverse order:');
 values.forEach((number, index, array) => {
   const reverseIndex = array.length - 1 - index;
   console.log(array[reverseIndex]);

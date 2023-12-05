@@ -10,5 +10,5 @@ console.log(salePrices);
 
 const formattedPrices = prices.map((number) => `$${number.toFixed(2)}`);
 
-console.log('\nArray of formatted prices:');
+console.log('Array of formatted prices:');
 console.log(formattedPrices);

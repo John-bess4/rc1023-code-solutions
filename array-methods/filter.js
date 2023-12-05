@@ -17,5 +17,5 @@ console.log('Array of even Numbers:');
 console.log(evenNumbers);
 
 const namesWithoutD = names.filter((name) => !name.toLowerCase().includes('d'));
-console.log('\nArray of names without D or d:');
+console.log('Array of names without D or d:');
 console.log(namesWithoutD);
