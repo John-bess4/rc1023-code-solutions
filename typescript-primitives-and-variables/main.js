@@ -1,0 +1,15 @@
+var fullName = 'John Bessemer';
+var isCool = true;
+var totalPets = 2;
+console.log("Full Name:", fullName);
+console.log("Is Cool:", isCool);
+console.log("Total Pets:", totalPets);
+console.log('Type Of Full Name:', typeof fullName);
+console.log('Type Of Is Cool:', typeof isCool);
+console.log('Type Of Total Pets:', typeof totalPets);
+var unknown = null;
+console.log("Unknown:", unknown);
+console.log('Type Of Unknown:', typeof unknown);
+var never;
+console.log('Never:', never);
+console.log('Type Of Never:', typeof never);
