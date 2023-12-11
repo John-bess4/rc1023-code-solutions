@@ -1,0 +1,500 @@
+   68  git commit -m "completed-dom-creation"
+   69  git push origin dom-creation
+   70  git status
+   71  git switch main
+   72  git status
+   73  git switch css-transforms
+   74  git branch css-transforms
+   75  git switch css-transforms
+   76  git status
+   77  git add css-transforms
+   78  git commit -m "css-transforms"
+   79  git push origin css-transforms
+   80  git add css-transforms
+   81  git status
+   82  git commit -m "fixed-css-transforms"
+   83  git push origin css-transforms
+   84  git status
+   85  git switch main
+   86  git status
+   87  git status
+   88  git switch css-brochure-form
+   89  git status
+   90  git status
+   91  git add css-brochure-form
+   92  git status
+   93  git commit -m "completed-css-brochure-form"
+   94  git commit -m "completed-css-brochure-form"
+   95  git add css-brochure-form
+   96  git status
+   97  git commit -m "css-brochure-form"
+   98  git status
+   99  git add css-brochure-form
+  100  git status
+  101  git commit -m "completed-css-brochure-form"
+  102  git push origin css-brochure-form
+  103  git status
+  104  gti switch main
+  105  git switch main
+  106  git status
+  107  git status
+  108  git branch css-media-queries
+  109  git switch css-media-queries
+  110  git status
+  111  git status
+  112  git add css-media-queries 
+  113  git status
+  114  git commit -m "completed-css-media-queries"
+  115  git push origin css-media-queries
+  116  git status
+  117  git status
+  118  git switch main
+  119  git status
+  120  git switch dom-event-delegation
+  121  git branch dom-event-delegation
+  122  git status
+  123  git switch dom-event-delegation
+  124  git status
+  125  git status
+  126  git status
+  127  git add dom-event-delegation
+  128  git status
+  129  git status
+  130  git commit -m "completed-dom-event-delegation"
+  131  git push origin dom-event-delegation
+  132  git status
+  133  git switch main
+  134  git status
+  135  git branch css-responsive-layout
+  136  git switch css-responsive-layout
+  137  git satus
+  138  git status
+  139  git status
+  140  git add css-responsive-layout 
+  141  git commit -m "completed-css-responsive-layout"
+  142  git push origin css-responsive-layout
+  143  git status
+  144  git status
+  145  git switch main
+  146  cd/workspaces
+  147  git clone <git@github.com:John-bess4/Code-Journal.git>
+  148  cd code-journal
+  149  npm install
+  150  cd/workspaces
+  151  git clone <git@github.com:John-bess4/Code-Journal.git>
+  152  cd code-journal
+  153  npm install
+  154  code.
+  155  code .
+  156  git status
+  157  cd/workspaces
+  158  git clone <git@github.com:John-bess4/Code-Journal.git>
+  159  cd code-journal
+  160  npm install
+  161  ls
+  162  pwd
+  163  cd ..
+  164  ls
+  165  git clone git@github.com:John-bess4/Code-Journal.git 
+  166  ls
+  167  code .
+  168  git status
+  169  git init
+  170  git status
+  171  git status
+  172  cd Code-Journal
+  173  git branch issue-1-create-an-entry
+  174  git switch issue-1-create-an-entry
+  175  git status
+  176  git status
+  177  git add
+  178  git add code-journal
+  179  git add Code-Journal
+  180  git add index.html
+  181  git add css
+  182  git add js
+  183  git status
+  184  git commit -m "issue-1"
+  185  git push origin issue-1-create-an-entry
+  186  git status
+  187  git add 
+  188  git add issue-1
+  189  git add css
+  190  git add index.html
+  191  git commit -m "issue-1-updated"
+  192  git status
+  193  git switch main
+  194  git switch issue-1-create-an-entry
+  195  git status
+  196  git switch main
+  197  git status
+  198  git status
+  199  git pull origin main 
+  200  git status
+  201  git status
+  202  cd/workspaces
+  203  git cd / workspaces
+  204  cd / workspaces
+  205  cd/workspaces
+  206  cd /workspaces/
+  207  git clone git@github.com:Sean-Hughes-1/weekly-planner.git cd week-planner npm install
+  208  git clone git@github.com:Sean-Hughes-1/weekly-planner.git cd week-planner npm-install
+  209  git clone git@github.com:Sean-Hughes-1/weekly-planner.git
+  210  cd week-planner
+  211  git clone git@github.com:Sean-Hughes-1/weekly-planner.git cd week-planner npm install
+  212  git clone git@github.com:Sean-Hughes-1/weekly-planner.git cd weekly-planner npm-install
+  213  cd /workspaces/
+  214  git clone git@github.com:Sean-Hughes-1/weekly-planner.git 
+  215  cd weekly-planner
+  216  npm install
+  217  git status
+  218  gti add index.html
+  219  git add index.html
+  220  git commit -m "phase-1" --no-verify
+  221  git push origin main 
+  222  git status
+  223  git pull origin main 
+  224  git status
+  225  git status
+  226  git add .
+  227  git commit -m "phase 4" --no-verify
+  228  git push origin main
+  229  git status
+  230  git pull origin main 
+  231  git status
+  232  git pull origin main 
+  233  git status
+  234  git add .
+  235  git commit -m "dom row creation" --no-verify
+  236  git push origin main
+  237  git status
+  238  git status
+  239  git pull origin main
+  240  git pull origin main
+  241  git status
+  242  git status
+  243  git status
+  244  git add .
+  245  git status
+  246  git add .
+  247  git commit -m "rendering tables phase" --no-verify
+  248  git push origin main
+  249  git status
+  250  git branch es6-template-literals
+  251  git switch es6-template-literals
+  252  git status
+  253  git add .
+  254  git statuys
+  255  git status
+  256  git status
+  257  git add.
+  258  git add .
+  259  git status
+  260  git commit -m  "es6-literals"
+  261  git push origin es6-template-literals 
+  262  git status
+  263  git switch main
+  264  git status
+  265  git status
+  266  git switch es6-template-literals
+  267  git status
+  268  git add . 
+  269  git commit -m "es6"
+  270  git push origin main
+  271  git push origin es6-template-literals
+  272  git switch main
+  273  git status
+  274  git status
+  275  git branch http-messages
+  276  git switch http-messages
+  277  git status
+  278  https httpie.io/hello
+  279  http GET https://example.com
+  280  http --verbose GET https://example.com
+  281  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+  282  http --body GET https://example.com > http-messages/index.html
+  283  git add .
+  284  git commit -m "http-messages-completed"
+  285  git push origin http-messages
+  286  git status
+  287  git switch main
+  288  git status
+  289  git branch javascript-ajax
+  290  git status
+  291  git switch javascript-ajax
+  292  git status
+  293  git add .
+  294  git commit -m "ajax"
+  295  git push origin javascript-ajax
+  296  git status
+  297  git switch main
+  298  git switch javascript-loops-practice
+  299  git status
+  300  git add .
+  301  git status
+  302  git commit -m "loops-practice-done"
+  303  git push origin javascript-loops-practice 
+  304  git status
+  305  git switch main
+  306  git status
+  307  git branch array-manipulation-1
+  308  git switch array-manipulation-1
+  309  git status
+  310  git add .
+  311  git status
+  312  git commit -m "incomplete"
+  313  git status
+  314  git switch main
+  315  cd Code-Journal
+  316  pwd
+  317  cd ..Code-Journal
+  318  cd path\to\directory
+  319  cd workspaces
+  320  cd.. code-journal
+  321  cd /workspaces
+  322  cd Code-Journal
+  323  git status
+  324  cd /workspaces
+  325  cd..code-journal
+  326  cd code-journal
+  327  cd Code-Journal
+  328  cd Code-Journal
+  329  git status
+  330  git branch issue-2
+  331  git switch issue-2
+  332  git status
+  333  cd typescript-primitives-and-variables
+  334  npx tsc --watch main.ts
+  335  git branch objects-revisited
+  336  git switch objects-revisited
+  337  git status
+  338  git add .
+  339  git status
+  340  git commit -m "current-progress"
+  341  git push origin objects-revisited
+  342  git status
+  343  git switch mian
+  344  git switch main
+  345  git status
+  346  git branch es6-destructuring
+  347  git switch es6-destructuring
+  348  git status
+  349  git status
+  350  git status
+  351  git add .
+  352  git status
+  353  git commit -m "completed-es6"
+  354  git status
+  355  git push origin es6-destructuring 
+  356  git status
+  357  git switch main
+  358  git status
+  359  git branch es6-arrow-functions
+  360  git switch es6-arrow-functions
+  361  git status
+  362  git add .
+  363  git status
+  364  git commit -m "arrows"
+  365  git add .
+  366  git status
+  367  git commit -m "es6-arrows"
+  368  git push origin es6-arrow-functions
+  369  git status
+  370  git switch main
+  371  git branch array-methods
+  372  git switch array-methods
+  373  git status
+  374  git status
+  375  git add .
+  376  git commit -m "array-methodss"
+  377  git push origin array-methods
+  378  git add .
+  379  git status
+  380  git commit -m "array-methods"
+  381  git push origin array-methods
+  382  git status
+  383  git switch main
+  384  git status
+  385  cd npm-intro
+  386  cd npm-intro
+  387  cd npm-intro
+  388  cd /workspaces/c000-code-solutions/npm-intro
+  389  ls
+  390  git branch npm-intro
+  391  git switch npm-intro
+  392  git switch main
+  393  git pull 
+  394  git branch npm-intro-2
+  395  git switch npm-intro-2
+  396  cd npm-intro
+  397  cp .npm-init.js ~/.npm-init.js
+  398  cp .npm-init.js ~/.npm-init.js
+  399  npm init --yes
+  400  npm install jquery
+  401  npm install --save-dev
+  402  npm run hello
+  403  cd ..
+  404  git add .
+  405  git status
+  406  git commit -m "npm-intro"
+  407  git push origin npm-intro-2
+  408  git status
+  409  git switch main
+  410  git status
+  411  git status
+  412  git branch typescript-intro
+  413  git status
+  414  git switch typescript-intro
+  415  git status
+  416  git add .
+  417  git status
+  418  git commit -m "ts-intro"
+  419  git push origin typescript-intro
+  420  git status
+  421  git switch main
+  422  git switch npm-intro-2
+  423  git branch -M <npm-intro>
+  424  git switch main
+  425  git status
+  426  git switch npm-intro
+  427  git status
+  428  git branch -M npm-testing
+  429  git switch main
+  430  git switch npm-intro-2
+  431  git branch -M npm-intro
+  432  git push origin npm-intro
+  433  git switch main
+  434  git status
+  435  git branch typescript-primitives-and-variables
+  436  git switch typescript-primitives-and-variables
+  437  git status
+  438  cd typescript-primitives-and-variables
+  439  npx tsc --watch main.ts
+  440  cd ..
+  441  cd ..
+  442  cd
+  443  cd
+  444  cd ..
+  445  git add .
+  446  git status
+  447  git commit -m "ts"
+  448  git push origin typescript-primitives-and-variables
+  449  git commit -m "ts2" --no-verify
+  450  git psuh origin typescript-primitives-and-variables
+  451  git push origin typescript-primitives-and-variables
+  452  git status
+  453  git switch main
+  454  git status
+  455  git branch typescript-operators-and-expressions
+  456  git switch typescript-operators-and-expressions
+  457  cd typescript-operators-and-expressions
+  458  cd typescript-operators-and-expressions
+  459  cd typescript-operators-and-expressions
+  460  cd typescript-operators-and-expressions
+  461  typescript-operators-and-expressions
+  462  typescript-operators-and-expressionstypescript-operators-and-expressions
+  463  typescript-operators-and-expressions
+  464  cd typescript-operators-and-expressions
+  465  cd typescript-operators-and-expressions
+  466  cd typescript-operators-and-expressions
+  467  npx tsc --watch main.ts
+  468  cd typescript-operators-and-expressions
+  469  git status
+  470  cd typescript-primitives-and-variables
+  471  npx tsc --watch main.ts
+  472  git add .
+  473  git status
+  474  git commit -m "ts-objects" --no-verify
+  475  git status
+  476  git push origin typescript-objects 
+  477  git status
+  478  git switch main
+  479  git status
+  480  git add .
+  481  git commit -m "ts-operators-expressions"
+  482  git commit -m "ts-operators-expressions" --no-verify
+  483  git push origin typescript-operators-and-expressions 
+  484  git status
+  485  git switch main
+  486  git status
+  487  git branch typescript-objects
+  488  git switch typescript-objects
+  489  git status
+  490  cd typescript-objects
+  491  npx tsc --watch main.ts
+  492  cd typescript-operators-and-expressions
+  493  npx tsc --watch main.ts
+  494  git status
+  495  git branch typescript-functions
+  496  git switch typescript-functions
+  497  git status
+  498  git switch main
+  499  git branch typescript-algos
+  500  git switch typescript-algos
+  501  git switch main
+  502  git switch html-relative-links
+  503  git switch main
+  504  git branch command-line-basics
+  505  git switch command-line-basics
+  506  cd command-line-basics
+  507  cd command-line-basics
+  508   
+  509  cd command-line-basics
+  510  cd command-line-basics
+  511  man man
+  512  man man
+  513  man cat
+  514  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  515  cat three-virtues.text
+  516  cat three-virtues.txt 
+  517  man ls
+  518  ls -a
+  519  ls -F
+  520  ls -aF lfz-staff > lfz-staff/contents.txt
+  521  ls -aF lfz-staff > lfz-staff/contents.txt
+  522  cat lfz-staff/contents.txt
+  523  man pwd
+  524  pwd > i-was-here.txt
+  525  ls -a
+  526  cat i-was-here.txt
+  527  man echo
+  528  echo 'Hello,World'
+  529  echo 'Hello, World!' > hello.txt
+  530  ls -a
+  531  cat hello.txt
+  532  man touch
+  533  touch tag-youre-it.txt
+  534  touch snoop/boop.txt
+  535  touch snoot/boop.txt
+  536  ls -a
+  537  man mkdir
+  538  mkdir parent
+  539  ls -a
+  540  mkdir -p parent/child/grandchild
+  541  touch parent/child/grandchild/.gitkeep
+  542  ls -a
+  543  touch parent/child/grandchild/.gitkeep 
+  544  ls -a
+  545  touch grandchild/ .gitkeep
+  546  parent/child/grandchild/.gitkeep
+  547  touch parent/child/grandchild/.gitkeep
+  548  ls -a
+  549  man mv
+  550  man mv
+  551  mv pokiemans pokemon
+  552  ls -a
+  553  touch parent/child/grandchild/.gitkeep
+  554  ls -a
+  555  man rm
+  556  rm -lol.txt
+  557  rm lol.txt
+  558  ls -a
+  559  rm -r kill-me/
+  560  ls -a
+  561  man cp
+  562  cp and-then.txt no-and-then.txt
+  563  ls -a
+  564  cat and-then.txt no-and-then.txt
+  565  man history
+  566  history
+  567  history > command-history.txt
