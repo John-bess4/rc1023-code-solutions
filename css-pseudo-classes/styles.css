@@ -1,0 +1,19 @@
+.btn {
+  padding: 0.5em 1.5em;
+  font-size: 1.3em;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+table.stripes thead > tr {
+  background-color: black;
+  color: white;
+}
+
+table.stripes tbody > tr:nth-child(odd) {
+  background-color: #d2d2d2;
+}
