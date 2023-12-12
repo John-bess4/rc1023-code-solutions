@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.lightBtn {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(18, 18, 18);
+  transition: background-color 0.1s ease;
+}
+
+.lightBtn.light-On {
+  background-color: rgb(254, 255, 226);
+}
+
+.switchBtn {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  font-size: 2em;
+  background-color: rgb(38, 38, 38);
+  box-shadow: 0 -8px 16px rgba(0, 0, 0, 0.8);
+  transition: background-color 0.05s ease, box-shadow 0.05s ease;
+}
+
+.switchBtn.is-on {
+  background-color: rgb(240, 254, 129);
+  box-shadow: 0 4px 30px rgb(254, 229, 37);
+}
