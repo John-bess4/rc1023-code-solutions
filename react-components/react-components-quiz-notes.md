@@ -1,13 +1,14 @@
-# react-jsx-quiz-notes
+# react-components-quiz-notes
 
 ## Quiz Questions
 
 After completing this exercise, you should be able to discuss or answer the following questions:
 
-- What is JSX?
-  a syntax extension for javscript in react that allows HTML-like syntax in javascript, and
-- How does React use JSX to render components?
-  JSX represents react elements concisely, and then is transpiled into JS via babel, and then React uses the resulting javascript to render componets efficiently
+- What is a React component?
+
+- How do you define a component in React?
+
+- How is a component "rendered" (made visible on the browser page)?
 
 ## Notes
 
