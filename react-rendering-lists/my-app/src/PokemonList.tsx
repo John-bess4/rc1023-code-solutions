@@ -13,9 +13,7 @@ function PokemonList ({ pokedex }: PokemonListProps) {
   return (
     <ul>
       {pokedex.map((pokemon)=>(
-        <li key ={pokemon.numnber}>
-          {pokemon.number}: {pokemon.name}
-        </li>
+        <li key = {pokemon.number}> {pokemon.name} </li>
       ))}
     </ul>
   );
