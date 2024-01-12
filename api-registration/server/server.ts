@@ -28,21 +28,20 @@ app.use(express.json());
 
 app.post('/api/auth/sign-up', async (req, res, next) => {
   try {
-    const { username, password } = req.body as Partial<User>;
+    const { username, password } = req.body as Partial<Auth>;
     if (!username || !password) {
       throw new ClientError(400, 'username and password are required fields');
     }
-
     const hashedPassword = await argon2.hash(password);
     const sql = `
-    INSERT INTO "users" ("username", "hashPassword")
-    VALUES ($1, $2)
-    RETURNING "userId", "username", "createdAt"; `;
-        const params = [username, hashedPassword];
-        const result = await db.query<User>(sql, params);
-        const [newUser] = result.rows;
-
-        res.status(201).json(newUser)
+      insert into "users" ("username", "hashedPassword")
+      values ($1, $2)
+      returning *
+    `;
+    const params = [username, hashedPassword];
+    const result = await db.query<User>(sql, params);
+    const [user] = result.rows;
+    res.status(201).json(user);
   } catch (err) {
     next(err);
   }
